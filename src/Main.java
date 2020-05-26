@@ -5,7 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
         final long start_time = System.currentTimeMillis();
-        final int total_size = 2;
+        final int total_size = 2; // total number of persons
         Checkpoint A = new Checkpoint(total_size,start_time);
         Checkpoint B = new Checkpoint(total_size,start_time);
         Checkpoint C = new Checkpoint(total_size,start_time){
